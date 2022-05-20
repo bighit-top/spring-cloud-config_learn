@@ -1,6 +1,6 @@
 token:
   expiration_time: 86400000
-  secret: token_value_default
-
+  secret: '{cipher}AQBYPt1tf2NoN8RVVv8uMTBYm7R86p65fOZwS3XDBM9G/Wr8chugeFtko7bCtmpb9nBBKQuxBgTJbNsWkE7uGRnqVLPYaDk8taf8C4wkN6oQ37znr5S5uHdQR4wvGM+KpCFObue7DB2zAbyfnWIi7hww0cF2OdJzGe3b2mPWnxFG1lgre52esT/UiXW+9TnxZYboWIgINRMjwPT+RCOEbT0upc7/WV/3A3tn9S211hLuU8LJMYDheGSZl1FhhernmtGwGeRsO0b66Jxs4yV59A5QH32aeOdhYnbtzaSCWNtwHf99nR93u01HjlfmukvJtCPrL8C65j8dgIfQkAj7K8uHDNBQkEhUzbofmie1UQDTwe3xLMRvHXTb12/3Uu9TyeA=' #native_token
+  
 gateway:
   ip: 192.168.0.0

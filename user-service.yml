@@ -1,0 +1,18 @@
+spring:
+ datasource:
+   driver-class-name: org.h2.Driver
+   url: jdbc:h2:mem:springcloud
+   username: sa
+   password: '{cipher}AQBgXrvZZriu0YKuDjEA5DuagwBgdPEDJ8UgryBmenwqBE48O9vD74a76EMXpj6F0t1WcSyCZFkJMlL06gKbwoNLEn3HTOinoVeNmGAtY5OmnM698Z2cZ+H9WGCyD/u3fN6zT0jhwyWSciwx0/k/2cjrFYgtQakU7occazDDKHmr/u2QxgXfloYF//ekbsYpoH9j59IPTKB5TCMv6THmUPM1NlmyinCgoIzgUVU/+eCfhuECJRIfUO4QqnFVPgi7X6Mv2Q2fHOu9r2vR8Z6KTAB+uBubSZZgYdGoccZKaCxbsUn2uY2Q3PPH3GlaWFRIcWACO+dYDjOJXPjwLniifXLA3gMGSf8Ki0dxVQs6nIWSUP/R2i0ns3EUcGCOj5yGnzw=' #123456
+
+token:
+  expiration_time: 86400000
+  secret: native_token
+
+gateway:
+  ip: 192.168.0.0
+
+order_service:
+  url: http://ORDER-SERVICE/order-service/%s/orders
+  exception:
+    order_is_empty: Empty.
